@@ -1,0 +1,6 @@
+{
+  "name": "FeeBridge AI",
+  "description": "Cross-Border Student Payment Copilot for international tuition planning, transfer fee comparison, payment verification, and actionable compliance checklists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

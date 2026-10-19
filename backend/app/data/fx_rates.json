@@ -1,0 +1,50 @@
+{
+  "_comment": "ILLUSTRATIVE sample rates for planning/demo only. Units per 1 USD. NOT live market rates and not a quote.",
+  "ratesPerUsd": {
+    "USD": 1.0,
+    "BDT": 121.5,
+    "CNY": 7.24,
+    "GBP": 0.77,
+    "AUD": 1.51,
+    "MYR": 4.42,
+    "EUR": 0.92,
+    "CAD": 1.38,
+    "INR": 84.1
+  },
+  "countries": {
+    "Bangladesh": "BDT",
+    "China": "CNY",
+    "United Kingdom": "GBP",
+    "United States": "USD",
+    "Australia": "AUD",
+    "Malaysia": "MYR",
+    "Canada": "CAD",
+    "Germany": "EUR"
+  },
+  "routes": {
+    "student_fintech": {
+      "fxMarkupPercent": 1.4,
+      "fixedFee": {
+        "default": 0
+      },
+      "percentFee": 0
+    },
+    "digital_rail": {
+      "fxMarkupPercent": 0.6,
+      "fixedFee": {
+        "BDT": 850,
+        "default": 10
+      },
+      "percentFee": 0.75
+    },
+    "direct_bank": {
+      "fxMarkupPercent": 2.8,
+      "fixedFee": {
+        "BDT": 2600,
+        "USD": 30,
+        "default": 25
+      },
+      "percentFee": 0
+    }
+  }
+}

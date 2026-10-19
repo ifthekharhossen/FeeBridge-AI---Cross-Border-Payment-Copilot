@@ -1,0 +1,119 @@
+[
+  {
+    "id": "zju",
+    "name": "Zhejiang University",
+    "country": "China",
+    "city": "Hangzhou",
+    "officialBeneficiaryName": "ZHEJIANG UNIVERSITY INTERNATIONAL COLLEGE",
+    "officialBankName": "BANK OF CHINA, HANGZHOU YUQUAN SUB-BRANCH",
+    "officialAccountNo": "376658348921",
+    "officialSwiftBic": "BKCHCNBJ920",
+    "requiredReferenceFormat": "ZJU-<8-Digit-StudentID>-<Student-Surname>",
+    "exampleReference": "ZJU-32401899-AHMED",
+    "acceptedCurrencies": [
+      "CNY",
+      "USD"
+    ],
+    "depositDeadlineBufferDays": 5,
+    "specialInstructions": "Telegraphic transfers to China must mandate the EXACT Student ID in the payment reference (Field 70). Missing reference will trigger inward queue holding at Bank of China.",
+    "referenceRegex": "^ZJU-\\d{8}-[A-Z][A-Z\\-]*$",
+    "referenceTemplate": "ZJU-{student_id}-{surname}"
+  },
+  {
+    "id": "tsinghua",
+    "name": "Tsinghua University",
+    "country": "China",
+    "city": "Beijing",
+    "officialBeneficiaryName": "TSINGHUA UNIVERSITY FINANCIAL AFFAIRS OFFICE",
+    "officialBankName": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ICBC), BEIJING",
+    "officialAccountNo": "0200004509089132",
+    "officialSwiftBic": "ICBCCNBSBJG",
+    "requiredReferenceFormat": "THU-<ApplicationNo>-<PassportNo>",
+    "exampleReference": "THU-20268841-A0982312",
+    "acceptedCurrencies": [
+      "CNY",
+      "USD"
+    ],
+    "depositDeadlineBufferDays": 7,
+    "specialInstructions": "Intermediary routing via ICBC New York may incur $25 deduction if sent in USD. Direct CNY wire recommended.",
+    "referenceRegex": "^THU-\\d+-[A-Z0-9]+$",
+    "referenceTemplate": null
+  },
+  {
+    "id": "uom",
+    "name": "University of Manchester",
+    "country": "United Kingdom",
+    "city": "Manchester",
+    "officialBeneficiaryName": "THE UNIVERSITY OF MANCHESTER",
+    "officialBankName": "BARCLAYS BANK PLC, MANCHESTER CITY OFFICE",
+    "officialAccountNo": "GB42BARC20534388392100",
+    "officialSwiftBic": "BARCGB22",
+    "requiredReferenceFormat": "UOM-<7-Digit-ID>-TUITION",
+    "exampleReference": "UOM-1094822-TUITION",
+    "acceptedCurrencies": [
+      "GBP"
+    ],
+    "depositDeadlineBufferDays": 3,
+    "specialInstructions": "Students paying via bank wire must allow 3 working days for settlement before clearing CAS issuance holds.",
+    "referenceRegex": "^UOM-\\d{7}-TUITION$",
+    "referenceTemplate": "UOM-{student_id}-TUITION"
+  },
+  {
+    "id": "unimelb",
+    "name": "University of Melbourne",
+    "country": "Australia",
+    "city": "Melbourne",
+    "officialBeneficiaryName": "THE UNIVERSITY OF MELBOURNE ACCOUNTS",
+    "officialBankName": "NATIONAL AUSTRALIA BANK (NAB), MELBOURNE",
+    "officialAccountNo": "083004 883920192",
+    "officialSwiftBic": "NATAAU3303M",
+    "requiredReferenceFormat": "UNIMELB-<StudentNumber>",
+    "exampleReference": "UNIMELB-893240",
+    "acceptedCurrencies": [
+      "AUD"
+    ],
+    "depositDeadlineBufferDays": 4,
+    "specialInstructions": "BSB number 083-004 must precede account number for Australian domestic clearing.",
+    "referenceRegex": "^UNIMELB-\\d+$",
+    "referenceTemplate": "UNIMELB-{student_id}"
+  },
+  {
+    "id": "neu",
+    "name": "Northeastern University",
+    "country": "United States",
+    "city": "Boston",
+    "officialBeneficiaryName": "NORTHEASTERN UNIVERSITY TUITION TRUST",
+    "officialBankName": "JPMORGAN CHASE BANK, N.A., BOSTON",
+    "officialAccountNo": "001093849182",
+    "officialSwiftBic": "CHASUS33",
+    "requiredReferenceFormat": "NEU-NUID-<9-Digits>",
+    "exampleReference": "NEU-NUID-002847192",
+    "acceptedCurrencies": [
+      "USD"
+    ],
+    "depositDeadlineBufferDays": 5,
+    "specialInstructions": "Wire instructions require ABA Routing #021000021 for US domestic or SWIFT for international telegraphic transfers.",
+    "referenceRegex": "^NEU-NUID-\\d{9}$",
+    "referenceTemplate": "NEU-NUID-{student_id}"
+  },
+  {
+    "id": "um",
+    "name": "Universiti Malaya",
+    "country": "Malaysia",
+    "city": "Kuala Lumpur",
+    "officialBeneficiaryName": "BENDAHARI UNIVERSITI MALAYA",
+    "officialBankName": "CIMB BANK BERHAD, LEMBAH PANTAI",
+    "officialAccountNo": "8001278390",
+    "officialSwiftBic": "CIMBMYKL",
+    "requiredReferenceFormat": "UM-<MatricNo>-<PassportNo>",
+    "exampleReference": "UM-U2004819-B1029384",
+    "acceptedCurrencies": [
+      "MYR",
+      "USD"
+    ],
+    "depositDeadlineBufferDays": 4,
+    "specialInstructions": "Payment voucher must be uploaded to the Maya Portal within 48 hours of telegraphic transfer.",
+    "referenceRegex": "^UM-[A-Z0-9]+-[A-Z0-9]+$",
+    "referenceTemplate": null
+  }
+]
